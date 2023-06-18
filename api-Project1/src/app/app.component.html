@@ -1,0 +1,9 @@
+<div *ngFor="let code of storePinCode">
+  <ul> {{ code.Message }}</ul>
+  <ul> {{ code.Status }} </ul>
+
+<ul *ngFor="let secondCode of code.PostOffice">
+  <ul> {{ secondCode.Name }} </ul>
+</ul>
+
+</div>
